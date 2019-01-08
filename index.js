@@ -1,10 +1,14 @@
 // Write your solution in this file!
-const customerName="bob"
+const customerName="bob";
 
 function upperCaseCustomerName(customerName) {
-  return customerName.tuUpperCase
+  return customerName.tuUpperCase;
 }
 
 function setBestCustomer () {
   return "not bob";
+}
+
+function overwriteBestCustomer(bestCustomer) {
+  return bestCustomer;
 }

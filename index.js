@@ -4,3 +4,7 @@ const customerName="bob"
 function upperCaseCustomerName(customerName) {
   return customerName.tuUpperCase
 }
+
+function setBestCustomer () {
+  return "not bob";
+}
